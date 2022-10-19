@@ -8,5 +8,5 @@ Apresentação de objetivos da Jornada, como cultura Devops, instalação e util
 # Aula 2
 Aplicação de conceitos Kubernetes e utilização da imagem gerada acima para realizar Deploy em um cluster Kuberntes.
 
-#Aula 3
+# Aula 3
 Criação de conta na DigitalOcean, Deploy de um Cluster Kubernetes e Maquina virtual atravez do Terraform.
