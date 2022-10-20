@@ -22,5 +22,15 @@ pipeline {
             }
         }
 
+        stage ("deploy kubernetes") {
+
+            steps {
+                withKubeconfig ([credentialsId: 'kubeconfig']) {
+                        sh 'kubectl apply -f ./Aula2-KubeNews/deployment.yaml'
+                }
+            }
+
+        }
+
     }
 }
