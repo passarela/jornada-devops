@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
       - name: kube-news
-        image: passarela/kube-news:0.1
+        image: passarela/kube-news:{{TAG}}
 #        resources:
 #          limits:
 #            memory: "128Mi"
